@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.betweenthelines" name="Between The Lines" version="1.0.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en_us</language>
+    <summary lang="en">Between The Lines</summary>
+    <description lang="en">Between The Lines is a weekly syndicated half-hour radio newsmagazine featuring progressive perspectives on national and international political, economic and social issues. Since 1991, Between The Lines has provided in-depth, timely analysis on a wide range of political, economic and social issues including: the history and consequences of two U.S. wars with Iraq; increasing disparity in wealth in the U.S.; coverage of the global social justice movement and related protests challenging the free trade, corporate-driven policies of the World Trade Organization and World Bank/International Monetary Fund; post-9/11 erosion of civil liberties; constitutional protections and international law in the U.S.; the crisis in the U.S. health care system; international grassroots mobilization to confront global climate change; racism permeating the prison industrial complex; and efforts to repair flaws in the U.S. electoral system. This broadcast quality affiliate version contains no fundraising pitches</description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/BetweenTheLines</source>
+    <website>http://www.btlonline.org</website>
+        	<assets>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/1.jpg</screenshot>
+			<screenshot>resources/media/2.jpg</screenshot>
+			<screenshot>resources/media/3.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
